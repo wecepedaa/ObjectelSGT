@@ -30,6 +30,17 @@ int main()
 	cout << "\nEstos son los valores registrados en el árbol (InOrder) :\n";
 	tree.displayInOrder();
 
+	// Display the values.
+	cout << "\nEstos son los valores registrados en el árbol (PostOrder) :\n";
+	tree.displayPostOrder();
+
+	// Display the values.
+	cout << "\nEstos son los valores registrados en el árbol (PreOrder) :\n";
+	tree.displayPreOrder();
+
+	cout << "\n Busca un valor en el árbol \n";
+	tree.searchNode("pepe");
+
 	// Calcula la altura del arbol
 	// La altura de un árbol binario es el número de nodos de la trayectoria
 	// más larga desde la raíz a una hoja.

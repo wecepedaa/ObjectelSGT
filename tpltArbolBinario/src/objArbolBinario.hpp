@@ -56,6 +56,7 @@ public:
 
 	void displayPreOrder() const
 	{ displayPreOrder(root); }
+
 	void displayPostOrder() const
 	{ displayPostOrder(root); }
 
