@@ -7,7 +7,7 @@
 //============================================================================
 #include <vector>
 #include <iostream>
-#include "objArbolBinario.hpp"
+#include "objArbolBinario.cpp"
 using namespace std;
 const int NUM_NODES = 5	;
 

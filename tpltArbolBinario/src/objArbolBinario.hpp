@@ -64,10 +64,10 @@ public:
 		return alturaArbol(root);
 	}
 
-//	void copyTree()
-//	{
-//		return copyTree(root, root);
-//	}
+	void copyTree()
+	{
+		//return copyTree(root, root);
+	}
 
 };
 

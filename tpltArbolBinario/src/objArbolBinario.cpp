@@ -1,11 +1,9 @@
-//#include <iostream>
 #include "objArbolBinario.hpp"
 
 
 // La funcion acepta un puntero a TreeNode y un puntero a nodo.
 // La funcion inserta el nodo en el arbol apuntado por el puntero
 // TreeNode. Esta funcion se llama recursivamente.
-
 template <class T>
 void BinaryTree<T>::insert(TreeNode *&nodePtr, TreeNode *&newNode)
 {
@@ -90,6 +88,8 @@ void BinaryTree<T>::deleteNode(T item, TreeNode *&nodePtr)
 	else
 		makeDeletion(nodePtr);
 }
+
+
 
 // makeDeletion toma la referenica a un puntero al nodo
 // que sera borrado. El nodo es removido y las ramas
